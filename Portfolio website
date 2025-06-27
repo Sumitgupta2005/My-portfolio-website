@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sumit Gupta | Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #222;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 10px;
+      color: white;
+      text-decoration: none;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 10px;
+    }
+    .project, .contact-info {
+      margin-bottom: 20px;
+    }
+    .cta {
+      margin-top: 20px;
+    }
+    .cta a {
+      display: inline-block;
+      background-color: #007bff;
+      color: #fff;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Sumit Gupta</h1>
+    <p>Frontend Developer | Coding Enthusiast | BCA Student</p>
+    <nav>
+      <a href="#projects">Projects</a>
+      <a href="#services">Services</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h2>Welcome</h2>
+    <p>I build custom and clone websites using clean HTML/CSS. Need a website? I can help you build it from scratch.</p>
+    <div class="cta">
+      <a href="#projects">See My Projects</a>
+      <a href="My Resume.pdf" download>Download Resume</a>
+    </div>
+  </section>
+
+  <section id="services">
+    <h2>What I Do</h2>
+    <p>
+      I create fast, clean, and responsive websites for:
+      <ul>
+        <li>Personal portfolios</li>
+        <li>Small businesses</li>
+        <li>Product pages</li>
+        <li>Static clones</li>
+      </ul>
+    </p>
+    <p>Tech I use: HTML, CSS, Java (basic), Hosting setup</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Amazon Clone</h3>
+      <p>Static site using HTML/CSS</p>
+      <a href="https://github.com/Sumitgupta2005/Amazon-" target="_blank">View on GitHub</a>
+    </div>
+    <div class="project">
+      <h3>Flipkart Clone</h3>
+      <p>Static site using HTML/CSS</p>
+      <a href="https://github.com/Sumitgupta2005/Netflix-clone" target="_blank">View on GitHub</a>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML, CSS, C, Java</li>
+      <li>Frontend Development</li>
+      <li>Competitive Coding</li>
+      <li>Cybersecurity Basics</li>
+    </ul>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <ul>
+      <li>BCA @ JIMS Vasant Kunj – CGPA: 9.2</li>
+      <li>12th (PCM) – 82.5%</li>
+      <li>10th – 86.4%</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <div class="contact-info">
+      <p>Email: <a href="mailto:sumit.gupta260373@gmail.com">sumit.gupta260373@gmail.com</a></p>
+      <p>Phone / WhatsApp: <a href="https://wa.me/918130412796" target="_blank">8130412796</a></p>
+      <p>GitHub: <a href="https://github.com/Sumitgupta2005" target="_blank">Sumitgupta2005</a></p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Sumit Gupta. All rights reserved.</p>
+  </footer>
+</body>
+</html>
